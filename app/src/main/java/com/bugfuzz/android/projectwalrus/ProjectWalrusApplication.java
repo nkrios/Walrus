@@ -20,6 +20,8 @@
 package com.bugfuzz.android.projectwalrus;
 
 import android.app.Application;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -110,6 +112,12 @@ public class ProjectWalrusApplication extends Application {
                 CardDeviceManager.INSTANCE.scanForDevices(ProjectWalrusApplication.this);
             }
         }).start();
+
+        BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (bluetoothAdapter != null)
+            for (BluetoothDevice bluetoothDevice : bluetoothAdapter.getBondedDevices())
+                if (bluetoothDevice.getName().equals("lumpy"))
+                    CardDeviceManager.INSTANCE.attachBTHack(this, bluetoothDevice);
     }
 
     public class DeviceChangedBroadcastHandler extends BroadcastReceiver {
