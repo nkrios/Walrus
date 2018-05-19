@@ -39,11 +39,15 @@ class Proxmark3Command {
     public static final long VERSION = 0x107;
     public static final long HID_DEMOD_FSK = 0x20b;
     public static final long HID_CLONE_TAG = 0x210;
+    public static final long READER_ISO_14443A = 0x385;
     public static final long MEASURE_ANTENNA_TUNING = 0x400;
     public static final long MEASURED_ANTENNA_TUNING = 0x410;
+    public static final long MIFARE_READBL = 0x620;
 
     static final long MEASURE_ANTENNA_TUNING_FLAG_TUNE_LF = 1;
     static final long MEASURE_ANTENNA_TUNING_FLAG_TUNE_HF = 2;
+
+    static final long ISO14A_CONNECT = 1 << 0;
 
     @Opcode
     final long op;
@@ -130,8 +134,10 @@ class Proxmark3Command {
             VERSION,
             HID_DEMOD_FSK,
             HID_CLONE_TAG,
+            READER_ISO_14443A,
             MEASURE_ANTENNA_TUNING,
-            MEASURED_ANTENNA_TUNING
+            MEASURED_ANTENNA_TUNING,
+            MIFARE_READBL
     })
     public @interface Opcode {
     }

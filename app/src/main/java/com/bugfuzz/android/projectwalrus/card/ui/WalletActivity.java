@@ -80,7 +80,7 @@ public class WalletActivity extends OrmLiteBaseAppCompatActivity<DatabaseHelper>
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_mywallet);
+        setContentView(R.layout.activity_wallet);
 
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
@@ -164,7 +164,7 @@ public class WalletActivity extends OrmLiteBaseAppCompatActivity<DatabaseHelper>
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_mywallet, menu);
+        getMenuInflater().inflate(R.menu.menu_wallet, menu);
         return true;
     }
 
