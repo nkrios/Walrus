@@ -7,7 +7,13 @@ Walrus is an Android app for contactless card cloning devices such as the Proxma
 
 Designed for physical security assessors during red team engagements, Walrus supports basic tasks such as card reading, writing and emulation, as well as device-specific functionality such as antenna tuning and device configuration. More advanced functionality such as location tagging makes handling multiple targets easy, while bulk reading allows the stealthy capture of multiple cards while “war-walking” a target.
 
-**For end-user information such as what Walrus is, how to install it and how to use it, check out the [Walrus website](https://walrus.app/)! This readme outlines information intended for developers.**
+## Installing
+
+<a href="https://play.google.com/store/apps/details?id=com.bugfuzz.android.projectwalrus&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="160"></a>
+
+## Documentation
+
+[Documentation and Getting Started](https://walrus.app/docs/getting-started/). For end-user information such as what Walrus is, and how it can be used in the field, check out the [Walrus website](https://walrus.app/)!
 
 ## Development
 
