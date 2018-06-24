@@ -55,6 +55,22 @@ The current layout of Walrus's source code is as follows:
 
     * `/util`: Miscellaneous.
 
+
+## Device Support
+Here’s a table of the current devices / card type pairs we support and in what manner.
+**Key**: R = reading, W = writing, E = emulating, WIP = work in progress, NSY = Not Supported Yet (by hardware)
+
+|                        | Proxmark3 | Chameleon Mini Rev.G|
+|------------------------|:---------:|:-------------------:|
+| **HID Prox**           | R / W     | -                   |
+| **ISO14443A - UID**    | WIP       | R / E               |
+| **Mifare Ultralight**  | WIP       | WIP                 |
+| **Mifare Classic 1K**  | WIP       | R=NSY / E=WIP       |
+| **Mifare Classic 4K**  | WIP       | R=NSY / E=WIP       |
+| **Mifare Classic 4B**  | WIP       | NSY                 |
+| **Mifare Classic 7B**  | WIP       | NSY                 |
+| **Mifare DESFire**     | NSY       | NSY                 |
+
 ## Contributing
 
 We welcome all kinds of contributions and bug reports, big or small! Development takes place at our [GitHub repository](https://github.com/TeamWalrus/Walrus). There you can file issues (both bugs and enhancement requests) and submit pull requests.
