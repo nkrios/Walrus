@@ -1,7 +1,9 @@
 # Walrus
-[![Build Status](https://img.shields.io/badge/build-alpha-orange.svg)](https://play.google.com/store/apps/details?id=com.bugfuzz.android.projectwalrus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+[![Build Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://play.google.com/store/apps/details?id=com.bugfuzz.android.projectwalrus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 [![GitHub release](https://img.shields.io/badge/release-v0.1-blue.svg)](https://github.com/TeamWalrus/Walrus/releases/)
 [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://github.com/TeamWalrus/Walrus/blob/master/LICENSE)
+
+## Intro
 
 Walrus is an Android app for contactless card cloning devices such as the Proxmark3 and Chameleon Mini. Using a simple interface in the style of Google Pay, access control cards can be read into a wallet to be written or emulated later.
 
