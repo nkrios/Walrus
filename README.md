@@ -68,8 +68,8 @@ Here’s a table of the current devices / card type pairs we support and in what
 | **Mifare Ultralight**  | WIP       | WIP                 |
 | **Mifare Classic 1K**  | WIP       | R=NSY / E=WIP       |
 | **Mifare Classic 4K**  | WIP       | R=NSY / E=WIP       |
-| **Mifare Classic 4B**  | WIP       | NSY                 |
-| **Mifare Classic 7B**  | WIP       | NSY                 |
+| **Mifare Classic 4B**  | WIP       | R=NSY / E=WIP       |
+| **Mifare Classic 7B**  | WIP       | R=NSY / E=WIP       |
 | **Mifare DESFire**     | NSY       | NSY                 |
 
 ## Contributing
