@@ -17,7 +17,7 @@ Designed for physical security assessors during red team engagements, Walrus sup
 
 ## Development
 
-Walrus is developed by Daniel Underhay and Matthew Daley (a.k.a. [Team Walrus](mailto:team@walrus.app)!) and is [![Open Source](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)]()
+Walrus is developed by Daniel Underhay and Matthew Daley (a.k.a. [Team Walrus](mailto:team@walrus.app)!) and is [![Open Source](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/TeamWalrus/Walrus/blob/master/LICENSE)
 
 ## Building
 
