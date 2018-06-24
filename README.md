@@ -58,6 +58,7 @@ The current layout of Walrus's source code is as follows:
 
 ## Device Support
 Here’s a table of the current devices / card type pairs we support and in what manner.
+
 **Key**: R = reading, W = writing, E = emulating, WIP = work in progress, NSY = Not Supported Yet (by hardware)
 
 |                        | Proxmark3 | Chameleon Mini Rev.G|
